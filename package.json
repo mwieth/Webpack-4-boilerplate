@@ -1,0 +1,14 @@
+{
+  "name": "webpack-4-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "mw",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-md5-hash": "0.0.6"
+  }
+}
