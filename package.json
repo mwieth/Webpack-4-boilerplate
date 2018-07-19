@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --env dev --mode none",
+    "build:prod": "webpack --env prod --mode production",
+    "build:watch": "webpack-dev-server --env dev --mode none"
+  },
   "author": "mw",
   "license": "ISC",
   "devDependencies": {
@@ -18,9 +23,14 @@
     "postcss-loader": "^2.1.5",
     "sass-loader": "^7.0.2",
     "style-loader": "^0.21.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "webpack": "^4.10.2",
     "webpack-cli": "^3.0.1",
     "webpack-dev-server": "^3.1.4",
     "webpack-md5-hash": "0.0.6"
+  },
+  "dependencies": {
+    "css-reset-and-normalize": "^1.0.1"
   }
 }
