@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:dev": "webpack --env dev --mode none",
+    "build:dev": "webpack-dev-server --env dev --mode none",
     "build:prod": "webpack --env prod --mode production",
     "build:watch": "webpack-dev-server --env dev --mode none"
   },
-  "author": "mw",
+  "author": "mwieth",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^8.6.0",

@@ -1,8 +1,8 @@
-//import './style.css';
+import './styles/style.sass';
 
-import './styles/style.scss';
+
 console.log('hello, world');
 
-const lol = 'what';
+const testMessage = 'it works';
 
-console.log(lol);
+console.log(testMessage);
