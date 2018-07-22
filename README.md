@@ -6,12 +6,12 @@ This Webpack 4 Boilerplate comes with 2 builds:
 
 --> npm run build:prod
   creates prod mode with
-    * 1. compiles sass/stylus/less to css
-    * 2. autoprefixer for browser compability
-    * 3. compiles es6/typescript to es5
-    * 4. minifying for css/ js
-    * 5. uglyfing js code
-    * 6. hash css and js file(browser caching)
+    * 1. compiles sass/stylus/less to css <br>
+    * 2. autoprefixer for browser compability <br>
+    * 3. compiles es6/typescript to es5 <br>
+    * 4. minifying for css/ js <br>
+    * 5. uglyfing js code <br>
+    * 6. hash css and js file(browser caching) <br>
 
 # Setup
 1. clone and run npm install in project folder
