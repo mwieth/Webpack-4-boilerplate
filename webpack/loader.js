@@ -1,6 +1,4 @@
-const {
-  preprocessorName
-} = require('../webpack.config');
+const selectedPreprocessor = sass;
 
 const stylus = {
   fileRegexp: /\.styl$/,
@@ -15,9 +13,6 @@ const less = {
   fileRegexp: /\.less$/,
   loaderName: 'less-loader'
 }
-
-/* ENTER YOUR PREPROCESSOR HERE */
-const selectedPreprocessor = sass;
 
 module.exports = {
   selectedPreprocessor
