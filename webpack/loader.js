@@ -1,5 +1,3 @@
-const selectedPreprocessor = sass;
-
 const stylus = {
   fileRegexp: /\.styl$/,
   loaderName: 'stylus-loader'
@@ -13,6 +11,9 @@ const less = {
   fileRegexp: /\.less$/,
   loaderName: 'less-loader'
 }
+
+// Set preprocessor here
+const selectedPreprocessor = sass;
 
 module.exports = {
   selectedPreprocessor
