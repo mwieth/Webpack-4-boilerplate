@@ -12,14 +12,30 @@ This Webpack 4 Boilerplate comes with 2 builds:
   3. compiles es6/typescript to es5 <br>
   4. minifying for css/ js <br>
   5. uglyfing js code <br>
-  6. hash css and js file (prevent browser caching) <br>
+  6. hash css and js file (browser caching) <br>
 
 # Setup
 1. clone and run npm install in project folder
 
 # Preprocessor support (default: Sass)
 
+--> if u want to change to <strong>less</strong> run:
 
+npm install less-loader --save-dev
+npm uninstall node-sass sass-loader
+
+set selectedPreprocessor in \webpack\loader.js to less
+
+change default files in styles from sass to less
+
+--> if u want to change to <strong>stylus</strong> run:
+
+npm install stylus-loader --save-dev
+npm uninstall node-sass sass-loader
+
+set selectedPreprocessor in \webpack\loader.js to stylus
+
+change default files in styles from sass to stylus
 
 
 
