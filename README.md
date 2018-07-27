@@ -21,21 +21,21 @@ This Webpack 4 Boilerplate comes with 2 builds:
 
 --> if u want to change to <strong>less</strong> run:
 
-npm install less-loader --save-dev
-npm uninstall node-sass sass-loader
+  1. npm install less-loader --save-dev
+  2. npm uninstall node-sass sass-loader
 
-set selectedPreprocessor in \webpack\loader.js to less
+  3. set selectedPreprocessor in \webpack\loader.js to less
 
-change default files in styles from sass to less
+  4. change default files in styles from sass to less
 
 --> if u want to change to <strong>stylus</strong> run:
 
-npm install stylus-loader --save-dev
-npm uninstall node-sass sass-loader
+  1. npm install stylus-loader --save-dev
+  2. npm uninstall node-sass sass-loader
 
-set selectedPreprocessor in \webpack\loader.js to stylus
+  3. set selectedPreprocessor in \webpack\loader.js to stylus
 
-change default files in styles from sass to stylus
+  4. change default files in styles from sass to stylus
 
 
 
