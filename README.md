@@ -21,8 +21,8 @@ This Webpack 4 Boilerplate comes with 2 builds:
 
 --> if u want to change to <strong>less</strong> run:
 
-  1. npm install less less-loader --save-dev
-  2. npm uninstall node-sass sass-loader
+  1. <code>npm install less less-loader --save-dev</code>
+  2. <code>npm uninstall node-sass sass-loader</code>
 
   3. set selectedPreprocessor in \webpack\loader.js to less
 
@@ -30,8 +30,8 @@ This Webpack 4 Boilerplate comes with 2 builds:
 
 --> if u want to change to <strong>stylus</strong> run:
 
-  1. npm install stylus stylus-loader --save-dev
-  2. npm uninstall node-sass sass-loader
+  1. <code>npm install stylus stylus-loader --save-dev</code>
+  2. <code>npm uninstall node-sass sass-loader</code>
 
   3. set selectedPreprocessor in \webpack\loader.js to stylus
 
