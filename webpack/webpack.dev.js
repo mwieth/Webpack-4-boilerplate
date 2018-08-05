@@ -29,7 +29,7 @@ module.exports = {
         {
           loader: 'css-loader',
           options: {
-            modules: true,
+            modules: false,
             sourceMap: true
           }
         },
@@ -50,11 +50,11 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'style.css'
+      filename: 'style.css',
     }),
     new HtmlWebpackPlugin({
       inject: false,
-      hash: true,
+      hash: false,
       template: './' + src_Path + '/index.html',
       filename: 'index.html'
     })
