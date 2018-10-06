@@ -15,7 +15,7 @@ This Webpack 4 Boilerplate comes with 2 builds:
   6. hash css and js file (browser caching) <br>
 
 # Setup
-1. clone and run npm install in project folder
+1. clone and run <code>npm install</code> in project folder
 
 # Preprocessor support (default: Sass)
 
