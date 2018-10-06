@@ -1,10 +1,10 @@
 # Webpack 4 Boilerplate ES6/Sass with build-in option to change preprocessor (less/stylus)
 This Webpack 4 Boilerplate comes with 2 builds:
 
---> npm run build:dev <br>
+--> <code>npm run build:dev</code> <br>
   starts dev server on localhost:8080 with livereload, sourcemap
 
---> npm run build:prod <br>
+--> <code>npm run build:prod</code> <br>
   creates prod mode with:
 
   1. compiles sass/stylus/less to css <br>
