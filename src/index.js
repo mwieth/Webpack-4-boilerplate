@@ -1,7 +1,3 @@
-import './styles/style.sass';
+import './styles/style.scss';
 
-console.log('hello, world');
-
-const testMessage = 'it works';
-
-console.log(testMessage);
+console.log('hello world');
