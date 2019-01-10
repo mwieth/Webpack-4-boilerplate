@@ -4,9 +4,33 @@ html {
   box-sizing: border-box;
   color: $primary-color;
   font-family: $primary-font;
-  background: #f1f1f1;
 }
 
 .center {
   text-align: center;
+}
+
+table {
+  position: relative;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+}
+
+.white {
+  background: #f1f1f1;
+}
+
+.black {
+  background: #939393;
+}
+
+.player {
+  //position: absolute;
+  background: red;
+  z-index: 2;
+  top: 0;
+  left: 0;
 }
