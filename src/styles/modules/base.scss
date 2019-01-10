@@ -1,5 +1,11 @@
 @import 'variables';
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 html {
   box-sizing: border-box;
   color: $primary-color;
