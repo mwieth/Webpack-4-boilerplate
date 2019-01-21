@@ -18,8 +18,10 @@ module.exports = {
     path: path.resolve(__dirname, prod_Path),
     filename: '[name].[chunkhash].js'
   },
-  //devtool: 'cheap-module-source-map',
   devtool: 'source-map',
+  devServer: {
+    open: true,
+  },
   module: {
     rules: [{
       test: selectedPreprocessor.fileRegexp,
