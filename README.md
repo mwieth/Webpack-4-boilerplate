@@ -1,4 +1,4 @@
-# Webpack 4 Boilerplate ES6/Sass with build-in option to change preprocessor (less/stylus)
+# :rocket: Webpack 4 Boilerplate ES6/Sass with build-in option to change preprocessor (less/stylus)
 This Webpack 4 Boilerplate comes with 2 builds:
 
 --> <code>npm run build:dev</code> <br>
@@ -15,7 +15,8 @@ This Webpack 4 Boilerplate comes with 2 builds:
   6. hash css and js file (file versioning for browser caching) <br>
 
 # Setup
-1. clone and run <code>npm install</code> in project folder
+1. git clone https://github.com/mwieth/Webpack-4-boilerplate.git 
+2. run <code>npm install</code> in project folder
 
 # Preprocessor support (default: Sass)
 
