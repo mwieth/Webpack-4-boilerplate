@@ -1,11 +1,15 @@
-# :rocket: Webpack 4 Boilerplate ES6/Sass with build-in option to change preprocessor (less/stylus)
-This Webpack 4 Boilerplate comes with 2 builds:
+# Webpack 4 Boilerplate ES6/Sass with build-in option to change preprocessor (less/stylus)
+This <strong>Webpack 4 Boilerplate</strong> comes with 2 builds:
 
---> <code>npm run build:dev</code> <br>
-  starts dev server on <code>localhost:8080</code> with livereload, sourcemap
+```
+npm run build:dev
+```
+-> starts dev server on <code>localhost:8080</code> with livereload, sourcemap<br><br>
 
---> <code>npm run build:prod</code> <br>
-  creates prod files to <code>/dist</code> with:
+```
+npm run build:prod
+```
+-> creates prod files to <code>/dist</code> with:
 
   1. compiles sass/stylus/less to css <br>
   2. autoprefixer for browser compability <br>
@@ -14,11 +18,12 @@ This Webpack 4 Boilerplate comes with 2 builds:
   5. uglyfing js code <br>
   6. hash css and js file (file versioning for browser caching) <br>
 
-# Setup
-1. git clone https://github.com/mwieth/Webpack-4-boilerplate.git 
+## Setup
+1. git clone https://github.com/mwieth/Webpack-4-boilerplate.git
 2. run <code>npm install</code> in project folder
+3. <code>npm run build:dev</code>
 
-# Preprocessor support (default: Sass)
+## Preprocessor support (default: Sass)
 
 --> if u want to change to <strong>less</strong> run:
 
