@@ -12,11 +12,11 @@ npm run build:prod
 -> creates prod files to <code>/dist</code> with:
 
   1. compiles sass/stylus/less to css <br>
-  2. autoprefixer for browser compability <br>
-  3. compiles ES6/ES7/ES8 to ES5 <br>
+  2. autoprefixer for vendor prefixes (browser compability) <br>
+  3. compiles ES6+ to ES5 <br>
   4. minifying for css/js <br>
   5. uglyfing js code <br>
-  6. hash css and js file (file versioning for browser caching) <br>
+  6. hash css and js file (file versioning for browser caching -> cache busting) <br>
 
 ## Setup
 1. git clone https://github.com/mwieth/Webpack-4-boilerplate.git
