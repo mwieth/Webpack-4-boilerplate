@@ -13,7 +13,7 @@ const less = {
 }
 
 // Set preprocessor here
-const selectedPreprocessor = sass;
+const selectedPreprocessor = less;
 
 module.exports = {
   selectedPreprocessor

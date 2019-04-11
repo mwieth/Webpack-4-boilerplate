@@ -1,4 +1,4 @@
 import 'normalize.css';
-import './styles/style.scss';
+import './styles/style.less';
 
 console.log('hello world');
