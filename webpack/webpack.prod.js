@@ -35,18 +35,31 @@ module.exports = {
           },
           {
             loader: 'css-loader',
-            options: {
-              minimize: true
-            }
+
           },
           {
             loader: 'postcss-loader',
+            options: {
+              config: {
+                path: './postcss.config.js'
+              }
+            },
           },
           {
             loader: selectedPreprocessor.loaderName
           }
         ]
       },
+      {
+        test: /\.(png|jpg|gif|svg)$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'img',
+          },
+        }],
+      }
     ]
   },
   plugins: [

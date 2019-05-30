@@ -24,31 +24,38 @@ module.exports = {
   },
   module: {
     rules: [{
-      test: selectedPreprocessor.fileRegexp,
-      use: [{
-          loader: MiniCssExtractPlugin.loader
-        },
-        {
-          loader: 'css-loader',
-          options: {
-            modules: false,
-            sourceMap: true
-          }
-        },
-        {
-          loader: 'postcss-loader',
-          options: {
-            sourceMap: true
-          }
-        },
-        {
-          loader: selectedPreprocessor.loaderName,
-          options: {
-            sourceMap: true
-          }
-        },
-      ]
-    }]
+        test: selectedPreprocessor.fileRegexp,
+        use: [{
+            loader: MiniCssExtractPlugin.loader
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              modules: false,
+              sourceMap: true
+            }
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              sourceMap: true
+            }
+          },
+          {
+            loader: selectedPreprocessor.loaderName,
+            options: {
+              sourceMap: true
+            }
+          },
+        ]
+      },
+      {
+        test: /\.(png|jpg|gif|svg)$/,
+        use: [{
+          loader: 'file-loader',
+        }],
+      }
+    ]
   },
   plugins: [
     new MiniCssExtractPlugin({
