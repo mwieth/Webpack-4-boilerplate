@@ -1,7 +1,7 @@
 {
   "name": "webpack-4-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "🚀 Webpack 4 with ES6+ and SASS,LESS/STYLUS support + dev-server and livereload",
   "main": "index.js",
   "scripts": {
     "start": "npm run build:dev",
