@@ -27,7 +27,7 @@ npm run build:prod
 
 ```sh
 git clone https://github.com/mwieth/Webpack-4-boilerplate.git
-cd Webpack-4-boilerplate.git
+cd Webpack-4-boilerplate
 npm install
 //start dev mode
 npm run build:dev
